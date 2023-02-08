@@ -7,6 +7,7 @@ import matplotlib.pyplot as plt
 import ctypes
 import shutil
 import torch
+from torchaudio.transforms import PitchShift, TimeStretch
 
 import os.path
 import ast
@@ -319,3 +320,36 @@ def plot_spectrogram(spectrogram, fs=8000, title="Spectrogram"):
     ax.set_xlabel("Frame")
     ax.set_ylabel("Frequency bin")
     plt.show()
+
+def add_noise(waveform):
+    # Generate Gaussian noise
+    mean = 0
+    std = 0.02
+    noise = torch.empty_like(waveform).normal_(mean=mean, std=std)
+    # Add the noise to the audio signal
+    noisy_waveform = waveform + noise
+    return noisy_waveform 
+    
+def pitch_shifting(data):
+    sr  = 22050
+    bins_per_octave = 12
+    pitch_pm = 2
+    pitch_change =  pitch_pm * 2*(np.random.uniform())   
+    transform = PitchShift(sample_rate=sr, n_steps=pitch_change, bins_per_octave=bins_per_octave)
+    for idx, sample in enumerate(data):
+        sample = sample.unsqueeze(0)
+        data[idx] = transform(sample)
+    return data
+
+def time_stretching(data, rate_mean=1):
+    input_length = len(data[0])
+    stretch = TimeStretch()
+    for idx, sample in enumerate(data):
+        rand_rate = np.random.normal(rate_mean, 0.2)
+        data[idx] = stretch(sample, rand_rate)
+
+        if len(data[idx]) > input_length:
+            data[idx] = data[idx][:input_length]
+        else:
+            data[idx] = np.pad(data, (0, max(0, input_length - len(data[idx]))), "constant")
+    return data
