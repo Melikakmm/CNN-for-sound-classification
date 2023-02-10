@@ -19,4 +19,4 @@ Our results offer valuable insights into the potential of deep learning techniqu
 For More details click [here](https://docs.google.com/spreadsheets/d/1sCCcPoR8EBBya6jRyCnfTytkSTWD2QRgWzJlIAxwu5s/edit#gid=0)
 
 
-<img src="./l.jpg">
+<img src="l.jpg">
