@@ -19,7 +19,7 @@ Our results offer valuable insights into the potential of deep learning techniqu
 For More details click [here](https://docs.google.com/spreadsheets/d/1sCCcPoR8EBBya6jRyCnfTytkSTWD2QRgWzJlIAxwu5s/edit#gid=0)
 
 
-![Test Image 8](l.png)
+![Test Image 8](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngwing.com%2Fen%2Ffree-png-bbuuk&psig=AOvVaw1wKWUBLzu19ZN2e8HzD1U1&ust=1676150323957000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJjf_dbwi_0CFQAAAAAdAAAAABAF)
 
 
 
