@@ -17,3 +17,6 @@ Our results offer valuable insights into the potential of deep learning techniqu
 
 
 For More details click [here](https://docs.google.com/spreadsheets/d/1sCCcPoR8EBBya6jRyCnfTytkSTWD2QRgWzJlIAxwu5s/edit#gid=0)
+
+
+![7u5yfddeXVJP73NzbtNgnE]([https://w7.pngwing.com/pngs/790/836/png-transparent-white-robot-reading-book-illustration-machine-learning-deep-learning-artificial-intelligence-algorithm-robotics-electronics-computer-science-pattern-recognition.png])
