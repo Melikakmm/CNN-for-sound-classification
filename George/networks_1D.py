@@ -57,16 +57,16 @@ class Res1DLayer(nn.Module):
     
 class ResNet1D(nn.Module):
     """original paper: https://arxiv.org/abs/2105.07302"""
-    def __init__(self, F=128, num_classes=10, p_dropout=None):
+    def __init__(self, F=128, num_classes=8, p_dropout=None):
         super(ResNet1D, self).__init__()
         if F == 128:
-            self.name = 'ResNet1D' # as implemented in the original paper
+            self.name = 'ResNet1D-XL' # as implemented in the original paper
         elif F == 64:
-            self.name = 'ResNet1D-M'
+            self.name = 'ResNet1D-L'
         elif F == 32:
+            self.name = 'ResNet1D-M'
+        elif F == 16:
             self.name = 'ResNet1D-S'
-        else:
-            self.name = 'ResNet1D-Custom'
         self.p_dropout = p_dropout
         self.conv1 = nn.Conv1d(in_channels=1, out_channels=F, kernel_size=3, stride=3, padding=3, bias=False)
      
