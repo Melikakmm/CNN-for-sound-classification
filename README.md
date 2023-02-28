@@ -8,7 +8,7 @@ The focus of our paper is twofold: (1) the creation of our own custom preprocess
 
 # Results 
 
-Report: https://github.com/Melikakmm/CNN-for-sound-classification/blob/main/summary%20of%20our%20work/Soundfusion.pdf
+Report: https://github.com/Melikakmm/CNN-for-sound-classification/blob/main/summary%20of%20our%20work/Soundfusion.pdf <br>
 Slides: https://github.com/Melikakmm/CNN-for-sound-classification/blob/main/summary%20of%20our%20work/DLNN%20SoundFusion.pdf
 
 To visualize the results, you can check our report that you can find in this repository.
