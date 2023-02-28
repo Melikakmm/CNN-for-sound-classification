@@ -5,7 +5,10 @@ In this project, we delve into the exciting world of music classification - a ch
 The focus of our paper is twofold: (1) the creation of our own custom preprocessing class to prepare the data before feeding it to the model, (2) a comparative analysis of the state-of-the-art models on the FMA dataset, and, (3) the SoundFusion architecture that we propose and which can learn from different audio representations. We provide in the report a summary of the results to showcase the effectiveness and limitations of using CNNs in music classification tasks.
 
 
+
 # Results 
+
+Report: https://github.com/Melikakmm/CNN-for-sound-classification/blob/main/summary%20of%20our%20work/Soundfusion.pdf
 
 To visualize the results, you can check our report that you can find in this repository.
 Several results are available also here:
