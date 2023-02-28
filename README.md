@@ -1,5 +1,4 @@
-# SoundFusion: Music Recognition by Information
-Fusion of Different Audio Representations
+# SoundFusion: Music Recognition by Information Fusion of Different Audio Representations
 
 
 In this project, we delve into the exciting world of music classification - a challenge that requires the identification of a musical piece's genre or style. We approach this task in a dual way, by utilizing the information provided by the raw signal itself and also by taking advantage of the spectrogram representation of the tracks, leveraging the powerful capabilities of Convolutional Neural Networks (CNNs) as image classifiers.We present a comprehensive music classification system using various CNN architectures implemented in PyTorch, including ResNet34 and ResNet18 (both with pretrained and random weight initialization), and our own custom ResNet34 architecture with added regularization techniques for improved performance. Additionally, we propose our own Simple CNN for comparison. Our approach utilizes both raw audio signals and spectrogram representations as inputs to the CNNs, with the goal of accurately classifying music into eight predefined genres.
