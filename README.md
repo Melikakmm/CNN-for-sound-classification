@@ -8,10 +8,8 @@ The focus of our paper is twofold: (1) the creation of our own custom preprocess
 # Results 
 
 To visualize the results, you can check our report that you can find in this repository.
-Several results are available here:
-https://docs.google.com/spreadsheets/d/1sCCcPoR8EBBya6jRyCnfTytkSTWD2QRgWzJlIAxwu5s/edit#gid=0
-
-
+Several results are available also here:
+https://docs.google.com/spreadsheets/d/1sCCcPoR8EBBya6jRyCnfTytkSTWD2QRgWzJlIAxwu5s/edit?usp=sharing
 
 ![Test Image 8](k.jpeg)
 
